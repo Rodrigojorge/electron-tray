@@ -1,0 +1,10 @@
+{
+  "name": "electron-tray",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Rodrigojorge/electron-tray",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
+}

@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+
+  app:
+   
+    build: 
+      context: .
+      
+    command: tail -F keeprunning #mantem o container rodando infinitamente para acesso remoto
+    working_dir: /var/app/
+    volumes:
+      - .:/var/app:cached
